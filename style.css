@@ -1,0 +1,30 @@
+body {
+    background-color: #278ea5;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav, 
+.mr-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+#stuff {
+    font-size: 5em;
+    color: #fdfdfd;
+}
+@media(max-width: 1200px) {
+#stuff {
+    font-size: 3rem;
+    font-weight: 100;
+}
+}
+.lead {
+    font-size: 1.5rem;
+}
+#believe {
+    background-color: #fdfdfd;
+    width: 100%;
+    border: 2px solid #00d1ff;
+    border-top: none;
+}
